@@ -31,6 +31,30 @@ const quizData = [
         d: "none of the above",
         correct: "b",
     },
+    {
+        question: "In which language is C++ based?",
+        a: "C",
+        b: "Java",
+        c: "C#",
+        d: "PHP",
+        correct: "a",
+    },
+    {
+        question: "What programming language is not object oriented?",
+        a: "Python",
+        b: "Ruby",
+        c: "Swift",
+        d: "C",
+        correct: "d",
+    },
+    {
+        question: "To make good IOS apps, you need to master:",
+        a: "Kotlin",
+        b: "Swift",
+        c: "Pascal",
+        d: "TCL",
+        correct: "a",
+    }
 ];
 
 const quiz = document.getElementById("quiz");
@@ -56,7 +80,7 @@ function loadQuiz() {
     a_text.innerText = currentQuizData.a;
     b_text.innerText = currentQuizData.b;
     c_text.innerText = currentQuizData.c;
-    d_text.innerText = currentQuizData.d;
+    d_text.innerText = currentQuizData.d;    
 }
 
 function getSelected() {
